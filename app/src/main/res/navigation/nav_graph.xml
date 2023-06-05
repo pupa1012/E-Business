@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/favoritenFragment">
+
+    <fragment
+        android:id="@+id/favoritenFragment"
+        android:name="com.example.myapplication.FavoritenFragment"
+        android:label="fragment_favoriten"
+        tools:layout="@layout/fragment_favoriten" />
+    <fragment
+        android:id="@+id/sucheFragment"
+        android:name="com.example.myapplication.SucheFragment"
+        android:label="fragment_suche"
+        tools:layout="@layout/fragment_suche" />
+    <fragment
+        android:id="@+id/inserierenFragment"
+        android:name="com.example.myapplication.InserierenFragment"
+        android:label="fragment_inserieren"
+        tools:layout="@layout/fragment_inserieren" />
+    <fragment
+        android:id="@+id/nachrichtenFragment"
+        android:name="com.example.myapplication.NachrichtenFragment"
+        android:label="fragment_nachrichten"
+        tools:layout="@layout/fragment_nachrichten" />
+    <fragment
+        android:id="@+id/einstellungenFragment"
+        android:name="com.example.myapplication.EinstellungenFragment"
+        android:label="fragment_einstellungen"
+        tools:layout="@layout/fragment_einstellungen" />
+</navigation>
